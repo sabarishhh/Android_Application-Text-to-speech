@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:background="#061637">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/load"
+        android:id="@+id/gif"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="80dp">
+    </pl.droidsonroids.gif.GifImageView>
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/images"
+        android:background="@drawable/bg"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="55dp"
+        android:textSize="46sp"
+        android:gravity="center"
+        android:id="@+id/logos"
+        android:textColor="#81d4fa"
+        android:fontFamily="@font/font"
+        android:text="Speechify"/>
+
+</RelativeLayout>
